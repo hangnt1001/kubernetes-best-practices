@@ -15,7 +15,7 @@ Without any further ado, here are the four categories:
 
 •Operations: Tasks that falls under the responsibility of the Ops team.
 
-1. General
+#1. General
 — — —
 
 • Make sure to use the multi-stage build for your Docker images as much as possible
@@ -42,7 +42,7 @@ Without any further ado, here are the four categories:
 • Never use Passwords, or API tokens in plain text or as environment variables, use secrets instead
 • Use non-root user inside container with proper host to container, UID and GID mapping
 
-3. Developers
+#3. Developers
 — — —
 
 • In case of failure don’t just restart, rather crash cleanly
@@ -54,7 +54,7 @@ Without any further ado, here are the four categories:
 
 • Make sure to always use Readiness & Liveness probes
 
-4. Operations
+#4. Operations
 — — —
 
 • Ensure that all logs are stored in a central log hub
